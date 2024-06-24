@@ -7,7 +7,7 @@ using Moq;
 namespace HomeTeachTests.Sample;
 
 [TestFixture]
-public class LoginTests
+public class LoginWithMoqTests
 {
     private Mock<IUserRepository> _userRepositoryMock;
     private Mock<ILogRepository> _loginRepositoryMock;

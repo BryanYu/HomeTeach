@@ -10,9 +10,11 @@ public class StudentFluentTests
     [Test]
     public void StudentFluentTests_CompareTwoStudent()
     {
+        // Arrange
         var student1 = new Student { Id = 1, Name = "John" };
         var student2 = new Student { Id = 1, Name = "John" };
 
+        // Assert
         student1.Should().Be(student2);
     }
 

@@ -6,12 +6,12 @@ public class Student
     
     public string Name { get; set; }
 
-    
     public override bool Equals(object? obj)
     {
         var compare = (Student)obj;
         return compare.Id == this.Id && compare.Name == this.Name;
     }
+    
     
     public List<Student> GetAllStudents()
     {
